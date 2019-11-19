@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+nav{
+    transition: transform 0.3s ease-out;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    .menu{
+        padding: 10px 0 0 0;
+        li{
+            display: inline-block;
+            list-style: none;
+        }
+        .items{
+            font-weight: bold;
+            margin: 0 0 0 20.8px;
+            &:hover{
+                color: rgb(196, 18, 48);
+                cursor: pointer;
+            }
+        }
+    }
+    .logo{
+        position: absolute;
+        left: 47%;
+        top: auto;
+        z-index: 2;
+        top: 1%;
+        img{
+            height: 120px;
+            width: 120px;
+        }
+    }
+    .menu-btn{
+        
+        li{
+            display: inline-block;
+            list-style: none;
+        }
+        .btn-items{
+            border: none;
+            margin: 0 16px 0 0;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 8px 18px;
+            background-color: #BE5A09;
+            border-radius: 9999rem;
+            &:hover{
+                background-color: rgb(201, 108, 32);
+                cursor: pointer;
+            }
+        }
+        .btn-items.secondary{
+            background: #ffffff;
+            border: 1px solid #BE5A09;
+            color: #BE5A09;
+            padding: 8px 18px;
+            .fa-shopping-cart{
+                color: #BE5A09;
+            }
+            &:hover{
+                background-color: #BE5A09;
+                color: #ffffff;
+                .fa-shopping-cart{
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}

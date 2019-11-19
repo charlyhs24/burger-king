@@ -1,0 +1,31 @@
+.checkout-container{
+    position: absolute;
+    top: 5rem;
+    right: 3rem;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    .body{
+        padding: 26px;
+        p{
+            line-height: 3rem;
+            color: #757575;
+        }
+        .text-bold{
+            color: #000000;
+            font-weight: bold;
+        }
+    }
+    .checkout-footer{
+        button{
+            padding: 16px;
+            border-radius: 8px;
+            border: none;
+            background-color: #757575;
+            width: 100%;
+            font-size: 20px;
+            font-weight: bold;
+            color: #ffffff;
+            line-height: 2rem;
+        }
+    }
+}
