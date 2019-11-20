@@ -3,7 +3,7 @@ import './navbar.scss';
 import { Link } from 'react-router-dom'
 import CheckoutNotification from '../../Components/Molecules/Checkout-Notification';
 const Navbar = () => {
-    const [Scale, setScale] = useState("translateY(45px) scale(0.95)")
+    const [Scale, setScale] = useState("translateY(50px) scale(0.95)")
     const [Notification, setNotification] = useState(false)
     useEffect(() => {
         window.addEventListener("scroll",()=> {

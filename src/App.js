@@ -11,8 +11,8 @@ function App() {
       <Switch>
         <Layout>
           <Route exact path="/" component={HomePage}/>
-          <Route path="/signup" component={Register}/>
-          <Route path="/offers" component={Offers}/>
+          {/* <Route path="/signup" component={Register}/> */}
+          {/* <Route path="/offers" component={Offers}/> */}
         </Layout>
       </Switch>
     </BrowserRouter>

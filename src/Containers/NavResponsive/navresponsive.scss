@@ -40,69 +40,69 @@ nav{
         }
     }    
 }
-@media all and (min-width: 600px){
-    nav{
-        .menu{
-            justify-content: center;
-            .logo{
-                flex: 1;
-            }
-            .toggle{
-                flex: 1;
-                text-align: right;
-            }
-            .item.button{
-                width: auto;
-                order: 1;
-                display: block;
-            }
-            .toggle{
-                order: 2;
-            }
-            .button.secondary{
-                border: 0;
-            }
-            .button{
-                padding: 7.5px 15px;
-                background-color: teal;
-                border: 1px #006d6d solid;
-                &:hover{
-                    text-decoration: none;
-                    cursor: pointer;
-                }
-            }
-            .button.secondary{
-                background-color: transparent;
-            }
-        }
-    }
-}
+// @media all and (min-width: 600px){
+//     nav{
+//         .menu{
+//             justify-content: center;
+//             .logo{
+//                 flex: 1;
+//             }
+//             .toggle{
+//                 flex: 1;
+//                 text-align: right;
+//             }
+//             .item.button{
+//                 width: auto;
+//                 order: 1;
+//                 display: block;
+//             }
+//             .toggle{
+//                 order: 2;
+//             }
+//             .button.secondary{
+//                 border: 0;
+//             }
+//             .button{
+//                 padding: 7.5px 15px;
+//                 background-color: teal;
+//                 border: 1px #006d6d solid;
+//                 &:hover{
+//                     text-decoration: none;
+//                     cursor: pointer;
+//                 }
+//             }
+//             .button.secondary{
+//                 background-color: transparent;
+//             }
+//         }
+//     }
+// }
 
-/* Desktop menu */
-@media all and (min-width: 900px) {
-    nav{
-        .menu{
-            .item{
-                display: block;
-            }
-            .toggle{
-                display: none;
-            }
-            .logo{
-                display: none;
-            }
-            .item{
-                order: 1;
-            }
-            .button{
-                order: 2;
-            }
-            li{
-                padding: 15px 10px;
-                .button{
-                    padding-right: 0;
-                }
-            }
-        }
-    }
-}
+// /* Desktop menu */
+// @media all and (min-width: 900px) {
+//     nav{
+//         .menu{
+//             .item{
+//                 display: block;
+//             }
+//             .toggle{
+//                 display: none;
+//             }
+//             .logo{
+//                 display: none;
+//             }
+//             .item{
+//                 order: 1;
+//             }
+//             .button{
+//                 order: 2;
+//             }
+//             li{
+//                 padding: 15px 10px;
+//                 .button{
+//                     padding-right: 0;
+//                 }
+//             }
+//         }
+//     }
+// }
