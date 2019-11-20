@@ -1,0 +1,51 @@
+.form-register-container{
+    max-width: 50%;
+    margin: auto auto;
+    align-content: center;
+    .form-input{
+        margin: 46px 16px;
+        input{
+            padding: 16px;
+            width: 100%;
+            border-radius: 8px;
+            border: 1px solid #c5c5c5;
+            font-weight: bold;
+            font-size: 20px;
+            background-color: #ffffff;
+        }
+        input[type="radio"]:checked {
+            height: 20px;
+            padding: 0;
+        }
+        input[type="radio"] {
+            height: 20px;
+            padding: 0;
+        }
+        p{
+            text-align: left;
+            color: #414141;
+        }
+        button{
+            background-color: #BE5A09;
+            color: #ffffff;
+            font-weight: bold;
+            border-radius: 9999rem;
+            padding: 26px;
+            border: none;
+            width: 100%;
+        }
+        span{
+            color: #BE5A09;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    }
+    .form-input-radio{
+        margin: 10PX 0;
+        display: flex;
+        justify-content: flex-start;
+        padding: 0 10rem;
+        text-align: justify;
+        color: #757575;
+    }
+}

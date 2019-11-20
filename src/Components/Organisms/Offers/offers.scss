@@ -1,0 +1,15 @@
+.offers-organisms{
+    padding: 150px 0;  
+    background-color: rgb(244, 241, 239); 
+    .offers-flex{
+        margin: 26px 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .offers-items{
+        align-self: flex-start;
+        margin: 10px;
+    }
+}

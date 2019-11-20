@@ -11,6 +11,10 @@ nav{
     position: fixed;
     width: 100%;
     z-index: 1;
+    .link{
+        text-decoration: none;
+        color: #ffffff;
+    }
     .menu{
         padding: 10px 0 0 0;
         li{
@@ -38,7 +42,6 @@ nav{
         }
     }
     .menu-btn{
-        
         li{
             display: inline-block;
             list-style: none;
@@ -71,6 +74,30 @@ nav{
                     color: #ffffff;
                 }
             }
+        }
+    }
+}
+@media screen and (max-width: 812px){
+    nav{
+        justify-content: flex-end;
+        .menu{
+            display: none;
+        }
+        .menu-btn{
+            .btn-items.secondary{
+                display: none;
+            }
+        }
+        .logo{
+            left: 37%;
+            // right: 60%;
+        }
+    }
+}
+@media screen and (max-width:475px){
+    nav{
+        .logo{
+            left: 30%;
         }
     }
 }
