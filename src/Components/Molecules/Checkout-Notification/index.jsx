@@ -1,9 +1,12 @@
 import React from 'react';
 import './checkoutNotification.scss'
 const CheckoutNotification = ({status}) => {
-    
+
     return (
-        <div style={{display:status?'block':'none'}} className="checkout-container">
+        <div style={{
+            opacity:status?1:0, 
+            visibility:status?'visible':'hidden'}} 
+            className="checkout-container">
             <div className="body">
                 <p>You don't have anything in your cart yet!</p>
                 <p className="text-bold">Total 
