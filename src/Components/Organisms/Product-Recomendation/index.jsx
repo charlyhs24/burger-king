@@ -4,29 +4,31 @@ import Card from '../../Molecules/Card';
 const ProductRecomendation = () => {
     return (
         <div className="product-recomendation-container">
-            <div className="items">
-                <Card/>
-            </div>
-            <div className="items">
-                <Card/>
-            </div>
-            <div className="items">
-                <Card/>
-            </div>
-            <div className="items">
-                <Card/>
-            </div>
-            <div className="items">
-                <Card/>
-            </div>
-            <div className="items">
-                <Card/>
-            </div>
-            <div className="items">
-                <Card/>
-            </div>
-            <div className="items">
-                <Card/>
+            <div className="flex-container">
+                <div className="items">
+                    <Card/>
+                </div>
+                <div className="items">
+                    <Card/>
+                </div>
+                <div className="items">
+                    <Card/>
+                </div>
+                <div className="items">
+                    <Card/>
+                </div>
+                <div className="items">
+                    <Card/>
+                </div>
+                <div className="items">
+                    <Card/>
+                </div>
+                <div className="items">
+                    <Card/>
+                </div>
+                <div className="items">
+                    <Card/>
+                </div>
             </div>
         </div>
     );

@@ -5,7 +5,7 @@
     h1{
         font-weight: bold;
         font-size: 36px;
-        line-height: 1.75;
+        line-height: 1.75rem;
     }
     button{
         font-family: 'Calistoga', cursive;
@@ -15,8 +15,90 @@
         color: #BE5A09;
         font-weight: bold;
         border-radius: 9999rem;
-        margin: 20px 36px 0;
+        // margin: 20px 36px 20px 36px;
         font-size: 20px;
         padding: 1rem;
+    }
+}
+@media screen and (max-width:1024px){
+    .offers-container{
+        margin: 46px 0 0 0;
+        h1{
+            font-size: 28px;
+            line-height: 1.75rem;      
+        }
+        button{
+            font-family: 'Calistoga', cursive;
+            background-color: rgb(255, 255, 255);
+            padding: 16px 32px 16px 32px;
+            border: 1px solid #BE5A09;
+            color: #BE5A09;
+            font-weight: bold;
+            border-radius: 9999rem;
+            margin: 20px 36px 0;
+            font-size: 24px;
+            &:focus{
+                border-radius: 9999rem;
+                outline: none;
+                background-color: #BE5A09;
+                color: #ffffff;
+                font-weight: normal;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px){
+    .offers-container{
+        margin: 46px 0 0 0;
+        h1{
+            font-size: 28px;
+            line-height: 1.75rem;      
+        }
+        button{
+            font-family: 'Calistoga', cursive;
+            background-color: rgb(255, 255, 255);
+            padding: 16px 32px 16px 32px;
+            border: 1px solid #BE5A09;
+            color: #BE5A09;
+            font-weight: bold;
+            border-radius: 9999rem;
+            margin: 20px 36px 0;
+            font-size: 24px;
+            &:focus{
+                border-radius: 9999rem;
+                outline: none;
+                background-color: #BE5A09;
+                color: #ffffff;
+                font-weight: normal;
+            }
+        }
+    }
+}
+@media screen and (max-width:411px){
+    .offers-container{
+        margin: 46px 0 0 0;
+        h1{
+            font-size: 18px;
+            line-height: 1.75rem;      
+        }
+        button{
+            font-family: 'Calistoga', cursive;
+            background-color: rgb(255, 255, 255);
+            padding: 8px 16px 8px 16px;
+            border: 1px solid #BE5A09;
+            color: #BE5A09;
+            font-weight: bold;
+            border-radius: 9999rem;
+            margin: 20px 0 20px 0;
+            font-size: 16px;
+            &:focus{
+                border-radius: 9999rem;
+                outline: none;
+                background-color: #BE5A09;
+                color: #ffffff;
+                font-weight: normal;
+            }
+        }
     }
 }

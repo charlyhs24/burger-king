@@ -8,8 +8,8 @@ export default class HomePage extends Component {
     render() {
         return (
             <div className="home-page-container">
-                {/* <HomePageOrganisms/> */}
-                {/* <ProductRecomendation/> */}
+                <HomePageOrganisms/>
+                <ProductRecomendation/>
                 {/* <Promotions/> */}
             </div>
         )
