@@ -2,14 +2,50 @@
     padding: 150px 0;  
     background-color: rgb(244, 241, 239); 
     .offers-flex{
-        margin: 26px 0;
+        margin: 100px 10% 0 20%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
     }
     .offers-items{
-        align-self: flex-start;
-        margin: 10px;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .offers-organisms{  
+        background-color: rgb(244, 241, 239); 
+        .offers-flex{
+            margin: 0;
+            justify-content: center;
+        }
+        .offers-items{
+            // margin: 20px;
+        }
+    }
+}
+@media screen and (max-width:540px){
+    .offers-organisms{  
+        background-color: rgb(244, 241, 239); 
+        .offers-flex{
+            margin: 0;
+            justify-content: center;
+        }
+        .offers-items{
+            // margin: 20px;
+        }
+    }
+}
+@media screen and (max-width:360px){
+    .offers-organisms{
+        padding: 150px 0;  
+        background-color: rgb(244, 241, 239); 
+        .offers-flex{
+            margin: 0;
+            justify-content: center;
+        }
+        .offers-items{
+            // margin: 20px;
+        }
     }
 }
