@@ -29,6 +29,21 @@ const ProductRecomendation = () => {
                 <div className="items">
                     <Card/>
                 </div>
+                <div className="items">
+                    <Card/>
+                </div>
+                <div className="items">
+                    <Card/>
+                </div>
+                <div className="items">
+                    <Card/>
+                </div>
+                <div className="items">
+                    <Card/>
+                </div>
+                <div className="items">
+                    <Card/>
+                </div>
             </div>
         </div>
     );
