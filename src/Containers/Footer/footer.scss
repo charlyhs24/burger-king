@@ -1,5 +1,5 @@
 footer{
-    padding: 40px 40px 100px;
+    padding: 20px 40px;
     background-color:rgb(50, 50, 49);
     color: #ffffff;
     .footer-items-1{
@@ -7,13 +7,14 @@ footer{
         flex-direction: row;
         justify-content: space-between;
         border-bottom: 1px solid #ffffff;
-        margin-bottom: 20px;
+        padding-bottom: 20px;
         .items{
-            padding-bottom: 40px;
+            padding: 20px 0 0 0;
             li{
                 font-family: din_regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
-                font-size: 20px;
+                font-size: 18px;
                 list-style: none;
+                padding: 0 0 10px 0;
                 &:hover{
                     text-decoration: underline;
                     cursor: pointer;
@@ -28,22 +29,25 @@ footer{
     }
     .footer-items-2{
         span{
+            font-size: 16px;
             line-height: 2rem;
             font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
         }
         p{
+            font-size: 16px;
             line-height: 2rem;
             font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
         }
         .head-information{
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
             .items{
+                padding: 0 0 10px 0;
                 line-height: 3rem;
-                font-size: 20px;
+                font-size: 26px;
                 font-weight: bold;
                 span{
-                    padding: 0 0 0 30px;
+                    padding: 0 20px 0 0;
                     .fa-instagram{
                         font-size: 40px;
                     }
@@ -55,6 +59,283 @@ footer{
                     }
                     .fa-twitter{
                         font-size: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1024px){
+    footer{
+        padding: 0 40px;
+        background-color:rgb(50, 50, 49);
+        color: #ffffff;
+        .footer-items-1{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border-bottom: 1px solid #ffffff;
+            padding-bottom: 20px;
+            .items{
+                padding: 20px 0 0 0;
+                li{
+                    font-family: din_regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                    font-size: 16px;
+                    list-style: none;
+                    padding: 0 0 10px 0;
+                    &:hover{
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+                }
+                .title{
+                    font-weight: bold;
+                    line-height: 3rem;
+                    font-family: 'Calistoga', cursive;
+                }
+            }
+        }
+        .footer-items-2{
+            span{
+                font-size: 16px;
+                line-height: 2rem;
+                font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            p{
+                font-size: 16px;
+                line-height: 2rem;
+                font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            .head-information{
+                display: flex;
+                flex-direction: column;
+                .items{
+                    padding: 0 0 10px 0;
+                    line-height: 3rem;
+                    font-size: 26px;
+                    font-weight: bold;
+                    span{
+                        padding: 0 20px 0 0;
+                        .fa-instagram{
+                            font-size: 40px;
+                        }
+                        .fa-facebook-f{
+                            font-size: 40px;
+                        }
+                        .fa-youtube{
+                            font-size: 40px;
+                        }
+                        .fa-twitter{
+                            font-size: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px){
+    footer{
+        padding: 0 40px;
+        background-color:rgb(50, 50, 49);
+        color: #ffffff;
+        .footer-items-1{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border-bottom: 1px solid #ffffff;
+            padding-bottom: 20px;
+            .items{
+                padding: 20px 0 0 0;
+                li{
+                    font-family: din_regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                    font-size: 14px;
+                    list-style: none;
+                    padding: 0 0 10px 0;
+                    &:hover{
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+                }
+                .title{
+                    font-weight: bold;
+                    line-height: 3rem;
+                    font-family: 'Calistoga', cursive;
+                }
+            }
+        }
+        .footer-items-2{
+            span{
+                font-size: 14px;
+                line-height: 2rem;
+                font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            p{
+                font-size: 14px;
+                line-height: 2rem;
+                font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            .head-information{
+                display: flex;
+                flex-direction: column;
+                .items{
+                    padding: 0 0 10px 0;
+                    line-height: 3rem;
+                    font-size: 24px;
+                    font-weight: bold;
+                    span{
+                        padding: 0 20px 0 0;
+                        .fa-instagram{
+                            font-size: 40px;
+                        }
+                        .fa-facebook-f{
+                            font-size: 40px;
+                        }
+                        .fa-youtube{
+                            font-size: 40px;
+                        }
+                        .fa-twitter{
+                            font-size: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:540px){
+    footer{
+        padding: 0 40px;
+        background-color:rgb(50, 50, 49);
+        color: #ffffff;
+        .footer-items-1{
+            display: flex;
+            flex-direction: column;
+            border-bottom: 1px solid #ffffff;
+            padding-bottom: 20px;
+            .items{
+                padding: 20px 0 0 0;
+                li{
+                    font-family: din_regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                    font-size: 16px;
+                    list-style: none;
+                    padding: 0 0 10px 0;
+                    &:hover{
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+                }
+                .title{
+                    font-weight: bold;
+                    line-height: 3rem;
+                    font-family: 'Calistoga', cursive;
+                }
+            }
+        }
+        .footer-items-2{
+            span{
+                font-size: 12px;
+                line-height: 2rem;
+                font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            p{
+                font-size: 12px;
+                line-height: 2rem;
+                font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            .head-information{
+                display: flex;
+                flex-direction: column;
+                .items{
+                    padding: 0 0 10px 0;
+                    line-height: 3rem;
+                    font-size: 20px;
+                    font-weight: bold;
+                    span{
+                        padding: 0 20px 0 0;
+                        .fa-instagram{
+                            font-size: 40px;
+                        }
+                        .fa-facebook-f{
+                            font-size: 40px;
+                        }
+                        .fa-youtube{
+                            font-size: 40px;
+                        }
+                        .fa-twitter{
+                            font-size: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:360px){
+    footer{
+        padding: 0 40px;
+        background-color:rgb(50, 50, 49);
+        color: #ffffff;
+        .footer-items-1{
+            display: flex;
+            flex-direction: column;
+            border-bottom: 1px solid #ffffff;
+            padding-bottom: 20px;
+            .items{
+                padding: 20px 0 0 0;
+                li{
+                    font-family: din_regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                    font-size: 12px;
+                    list-style: none;
+                    padding: 0 0 10px 0;
+                    &:hover{
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+                }
+                .title{
+                    font-weight: bold;
+                    line-height: 3rem;
+                    font-family: 'Calistoga', cursive;
+                }
+            }
+        }
+        .footer-items-2{
+            span{
+                font-size: 12px;
+                line-height: 2rem;
+                font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            p{
+                font-size: 12px;
+                line-height: 2rem;
+                font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            .head-information{
+                display: flex;
+                flex-direction: column;
+                .items{
+                    padding: 0 0 10px 0;
+                    line-height: 3rem;
+                    font-size: 20px;
+                    font-weight: bold;
+                    span{
+                        padding: 0 20px 0 0;
+                        .fa-instagram{
+                            font-size: 40px;
+                        }
+                        .fa-facebook-f{
+                            font-size: 40px;
+                        }
+                        .fa-youtube{
+                            font-size: 40px;
+                        }
+                        .fa-twitter{
+                            font-size: 40px;
+                        }
                     }
                 }
             }
