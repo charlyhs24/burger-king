@@ -27,6 +27,9 @@ const Navbar = () => {
                     <li className="items">
                         <Link to="/offers" style={{color:"#000000",textDecoration:"none"}}>OFFERS</Link>
                     </li>
+                    <li className="items">
+                        <Link to="/trending" style={{color:"#000000",textDecoration:"none"}}>TRENDING</Link>
+                    </li>
                 </ul>
                 <div className="logo">
                     <img src="/Assets/logo.png" alt="logo-img"/>
