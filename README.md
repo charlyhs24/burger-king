@@ -1,5 +1,5 @@
 ## Cloning Web Site Burger King
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).![alt text] (https://github.com/charlyhs24/burger-king/blob/master/public/gallery/iphoneX.PNG)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Demo App
 
