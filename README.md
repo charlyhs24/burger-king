@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Demo App
 
-![alt text] (https://github.com/charlyhs24/burger-king/blob/master/public/gallery/iphoneX.PNG)
+![Alt Text](https://github.com/charlyhs24/burger-king/blob/master/public/gallery/iphoneX.PNG)
 
 
 
