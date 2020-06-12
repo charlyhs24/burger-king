@@ -1,4 +1,4 @@
-## Cloning Web Site Burger King
+## Burger King
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Demo App
